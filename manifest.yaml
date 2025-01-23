@@ -12,7 +12,6 @@ spec:
     image: nginx
     ports:
     - containerPort: 80
-  imagePullSecrets:
 ---    
 apiVersion: v1
 kind: Pod
